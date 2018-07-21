@@ -7,9 +7,9 @@ based on-- https://github.com/tornadoweb/tornado (by Ben Darnell)
 
 For testing purposes, not intended for production use ;-)
 
-if you want to use this commercially, refer to TornadoWeb licenses
+if you want to use this commercially, refer to TornadoWeb license below
+(https://github.com/tornadoweb/tornado/blob/master/LICENSE)
 
-Jeff Muday, Wake Forest University
 
 Usage:
     
