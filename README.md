@@ -3,7 +3,7 @@ A simple HTTP daemon built with TornadoWeb
 
 tornadohttpd.py
 
-based on-- https://github.com/tornadoweb/tornado
+based on-- https://github.com/tornadoweb/tornado (by Ben Darnell)
 
 For testing purposes, not intended for production use ;-)
 
