@@ -1,6 +1,12 @@
 # python-tornado-httpd
 A simple HTTP daemon built with TornadoWeb
 
+This is not meant to scale or have any meaningful security, but will function as a very lightweight server
+for internal use and development.  Note-- that this server is not particularly well suited for serving anything
+but tiny media files.  You will have to add some protocol control on Range and Content-range for the browser.
+
+Ben Darnell recommends looking into HLS or MPEG-DASH.
+
 tornadohttpd.py
 
 based on-- https://github.com/tornadoweb/tornado (by Ben Darnell)
