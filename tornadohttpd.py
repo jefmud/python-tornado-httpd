@@ -84,7 +84,9 @@ class FileHandler(tornado.web.RequestHandler):
             mime_type = mimetypes.guess_type(path)
             self.set_header("Content-Type", mime_type[0] or 'text/plain')
     
-            outfile = open(path)
+            # note you will have to add some code to buffer big media files.
+            # Ben Darnell has some directions on this, look those over.
+            outfile = open(path, "rb")
             for line in outfile:
                 self.write(line)
             self.finish()
